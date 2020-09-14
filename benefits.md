@@ -56,7 +56,7 @@ function paintRed(car) {
 }
 
 const wigo = { model: 'Toyota Wigo', color: 'silver' };
-const retouched = { model: 'Toyota Wigo', color: 'red' };
+const retouched = paintRed(wigo);
 wigo.model = 'Toyota Wigo 2020';
 console.log('wigo retouched', retouched);
 ```
